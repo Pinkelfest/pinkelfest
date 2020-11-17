@@ -113,6 +113,32 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* Alert */
+.alert {
+  padding: 20px;
+  background-color: #fbecc4;
+  color: black;
+  margin-bottom: 1rem;
+  border-left: 5px solid;
+  border-left-color:#ffdf7f;
+}
+
+.alert
+.closebtn {
+  margin-left: 15px;
+  color: red;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
 /* Type */
 
 	html {
